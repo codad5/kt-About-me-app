@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">About me</string>
     <string name="name">Chibueze Aniezeofor</string>
+    <string name="my_name">Chibueze Aniezeofor</string>
+    <string name="yellow_star">yellow star string resource</string>
+    <string name="bio_text">Hola!, I am Chibueze Michael Aniezeofor ,a mechanical engineering student at the University of Nigeria who is passionate about software development.I have a strong passion for learning about new technologies, and I am always looking for new ways to improve my skills. During my years of experience, I have developed a nucleus energy towards backend technologies, a strong understanding of the software development process, and have gained valuable experience in the field of software development.
+
+Aside from my passion for software development, I aspire to create innovations that benefit the people of Earth or possibly aliens (if they exist).
+
+
+Due to the force of attraction between the  nucleus (ME) and my my first level eletrons (backend development), I consider myself a backend developer although i also learn technologies outside my field. Below are the technologies I have worked with.</string>
 </resources>
