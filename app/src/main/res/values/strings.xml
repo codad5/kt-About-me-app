@@ -9,4 +9,6 @@ Aside from my passion for software development, I aspire to create innovations t
 
 
 Due to the force of attraction between the  nucleus (ME) and my my first level eletrons (backend development), I consider myself a backend developer although i also learn technologies outside my field. Below are the technologies I have worked with.</string>
+    <string name="nickname_hint">What is your nickname</string>
+    <string name="Done">Done</string>
 </resources>
