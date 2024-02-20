@@ -14,6 +14,8 @@ import me.codad5.aboutme.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+    private  val myName: MyName = MyName("Chibueze Aniezeofor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
@@ -21,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 //        findViewById<Button>(R.id.done_button).setOnClickListener {
 //            setNickname(it)
 //        }
+
+        binding.myName = myName
 
         binding.doneButton.setOnClickListener {
             setNickname(it)
@@ -37,7 +41,8 @@ class MainActivity : AppCompatActivity() {
 
         // using kotlin apply
         binding.apply {
-            nicknameShow.text = nicknameEdit.text
+//            nicknameShow.text = nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             // refresh the UI
             invalidateAll()
             nicknameEdit.visibility = View.GONE
